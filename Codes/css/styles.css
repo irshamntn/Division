@@ -1,0 +1,133 @@
+body{
+    position: relative;
+    background-color: bisque;
+    margin: 0;
+    text-align: center;
+}
+
+.header{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: #F3C5C5;
+}
+
+.headline{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.body-left{
+    position: absolute;
+    width: 683px;
+    height: 525px;
+    top: 50px;
+    background-color: #C1A3A3;
+}
+
+.body-right{
+    position: absolute;
+    width: 683px;
+    height: 525px;
+    top: 50px;
+    right: 0;
+    background-color: #886F6F;
+}
+
+hr{
+    width: 50%;
+    color: #694E4E;
+}
+
+.footer{
+    position: absolute;
+    top: 575px;
+    height: 50px;
+    width: 100%;
+    background-color: #694E4E;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.genyo{
+    position: absolute;
+    left: 10px;
+
+}
+
+.bsd{
+    position: absolute;
+    right: 10px;
+    top: 210px;
+}
+
+.gc{
+    position: absolute;
+    left: 10px;
+    top: 370px;
+}
+
+.genyop{
+    position: absolute;
+    left: 150px;
+    top: 15px;
+    width: 100%;
+}
+
+.genyop1{
+    position: absolute;
+    left:172px;
+    top: 50px;
+    width: 450px;
+    text-align: left;
+
+}
+
+.bsdp{
+    position: absolute;
+    right: 500px;
+    top: 10px;
+    width: 100%;
+
+}
+
+.bsdp1{
+    position: absolute;
+    right:172px;
+    top: 40px;
+    width: 450px;
+    text-align: left;
+
+}
+
+.gcr{
+    position: absolute;
+    left: 70px;
+    top: 1px;
+    width: 400px;
+}
+
+.gcrp1{
+    position: absolute;
+    left:172px;
+    top: 35px;
+    width: 450px;
+    text-align: left;
+
+}
+
+
+a{
+    color: black;
+}
+
+a :hover{
+    color: red;
+}
+
+p{
+    text-align: left;
+}
